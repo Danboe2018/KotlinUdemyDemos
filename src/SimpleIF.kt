@@ -1,20 +1,20 @@
-fun main(){
+fun main() {
     print("Enter your grade: ")
     val grade = readLine()!!.toInt()
 
-    if(grade>= 90){
+    if (grade >= 90) {
         println("A")
     }
 
-    if(grade in 80..89){
+    if (grade in 80..89) {
         println("B")
     }
 
-    if(grade in 70..79){
+    if (grade in 70..79) {
         println("C")
     }
 
-    if (grade<70){
+    if (grade < 70) {
         println("Fail")
     }
 
