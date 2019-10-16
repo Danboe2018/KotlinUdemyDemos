@@ -1,6 +1,14 @@
+/*
+This is a multi line
+comment
+using comments
+ */
+
 fun main() {
+    // Ask for user name
     print("Enter Name: ")
     val name = readLine()!!.toString()
+    // Ask for Age
     print("Enter Age: ")
     val age = readLine()!!.toInt()
     print("Enter GPA: ")
